@@ -30,7 +30,7 @@
     message: string
 ```
 - PUT /requests/:id: Change a request
-Params:
+* Params:
 ```typescript
     comment: string
     status: 'resolved' | 'denied'
